@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import StudentForm from './pages/StudentForm'
 import StudentList from './components/StudentList'
+import './App.css'
 
 
 function App() {
@@ -12,10 +13,10 @@ function App() {
     <>
       <div className="container">
         <div className="row">
-          <div className="col-12 col-md-6 mb-8 mt-4">
+          <div className="col-12 col-md-4">
             <StudentForm onStudentAdded={handleRefresh} />
           </div>
-          <div className="col-12 col-md-6 mb-4">
+          <div className="col-12 col-md-8">
             <StudentList refresh={refresh} />
           </div>
         </div>

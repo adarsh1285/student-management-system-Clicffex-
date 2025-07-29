@@ -70,8 +70,8 @@ const StudentList = ({ refresh }) => {
 
 
   return (
-    <div className="mt-4">
-      <h3>All Students</h3>
+    <div className="container mt-4 text-primary">
+      <h3>🔷 All Students</h3>
       {/* Search Input */}
       <input
         type="text"
