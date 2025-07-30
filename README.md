@@ -4,16 +4,21 @@
 1. Clone the Repository
 
 git clone https://github.com/adarsh1285/student-management-system-Clicffex-.git
+
 cd student-management-system-Clicffex
 
 ▶️ Backend Setup (/backend)
 
 cd backend
+
 npm install
+
 npm server.js
 
 💻 Frontend Setup (/frontend)
 
 cd frontend
+
 npm install
+
 npm run dev
