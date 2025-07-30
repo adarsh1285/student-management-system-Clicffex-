@@ -1,6 +1,4 @@
 # Node modules (bahut heavy folder hota hai)
 node_modules/
 
-
-
-#
+.env
