@@ -11,7 +11,7 @@ app.use(cors());
 app.use(express.json());
 
 // Connect to MongoDB
-MONGO_URL="mongodb://127.0.0.1:27017/studentDB"
+MONGO_URL="mongodb://127.0.0.1:27017/studentDB" // ye local data base ke liye hai
 mongoose.connect(process.env.MONGO_URI, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
