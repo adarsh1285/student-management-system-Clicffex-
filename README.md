@@ -13,7 +13,7 @@ cd backend
 
 npm install
 
-npm server.js
+node server.js
 
 💻 Frontend Setup (/frontend)
 
